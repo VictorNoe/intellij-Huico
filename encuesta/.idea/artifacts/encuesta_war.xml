@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="encuesta:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>encuesta</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="encuestahuico-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="encuesta:war exploded" />
+    </root>
+  </artifact>
+</component>

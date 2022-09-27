@@ -54,7 +54,7 @@ public class ServletEncuesta extends HttpServlet {
                     response.sendRedirect("encuesta?result-save="+(result?"ok":"error"));
                 } catch (Exception e) {
                     e.printStackTrace();
-                    response.sendRedirect("encuesta");
+                    response.sendRedirect("index.jsp");
                 }
                 break;
             default:

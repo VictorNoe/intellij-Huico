@@ -13,11 +13,11 @@
     <div class="row mb-3"></div>
     <div class="row">
         <div class="col-4">
-            <form method="post">
+            <form action="save-persona" method="post">
                 <legend class="text-center">Encustas Naranjos</legend>
                 <div class="mb-3">
                     <label class="form-label">Encuestas</label>
-                    <select class="form-select" aria-label="Default select example">
+                    <select name="encuesta" class="form-select" aria-label="Default select example">
                         <option selected>Selecciona un opción...</option>
                         <option value="Encuesta 2018">Encuesta 2018</option>
                         <option value="Encuesta 2019">Encuesta 2019</option>
@@ -27,14 +27,14 @@
                     </select>
                 </div>
                 <div class="mb-3">
-                    <label for="disabledTextInput" class="form-label">Nombre</label>
-                    <input type="text" id="disabledTextInput1" class="form-control" placeholder="Ingresa Nombre">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" id="nombre" class="form-control" placeholder="Ingresa Nombre" name="nombre">
                 </div>
                 <div class="mb-3">
-                    <label for="disabledTextInput" class="form-label">Escuela</label>
-                    <input type="text" id="disabledTextInput" class="form-control" placeholder="Ingresa Escuela">
+                    <label for="escuela" class="form-label">Escuela</label>
+                    <input type="text" id="escuela" class="form-control" placeholder="Ingresa Escuela" name="encuela">
                 </div>
-                <button type="submit" class="btn btn-success d-grid col-4 mx-auto">Iniciar<br>Encuesta</button>
+                <button type="submit" class="btn btn-success d-grid col-4 mx-auto">Ingresar</button>
             </form>
         </div>
     </div>
